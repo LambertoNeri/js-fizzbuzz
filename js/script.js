@@ -1,7 +1,7 @@
 const eleGrid = document.querySelector('.grid');
 
 
-for (let i = 1; i <= 13000; i++) 
+for (let i = 1; i <= 130; i++) 
 {
 	if(i % 15 == 0){
 		eleGrid.innerHTML = eleGrid.innerHTML + `<div class="cell-fizzbuzz">FizzBuzz</div>`;
